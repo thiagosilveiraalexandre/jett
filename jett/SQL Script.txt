@@ -1,0 +1,17 @@
+CREATE DATABASE jettclinica;
+
+USE jettclinica;
+
+CREATE TABLE adm (
+id INT PRIMARY KEY auto_increment,
+name VARCHAR(20),
+email VARCHAR(20),
+pass VARCHAR(20),
+img VARCHAR(10));
+
+CREATE TABLE title (
+id INT PRIMARY KEY auto_increment,
+text VARCHAR(50));
+
+INSERT INTO adm (name, email, pass, img) VALUES ("adm", "jettclinica@gmail.com", "clinicafoda", "adm1");
+INSERT INTO title (text) VALUES ("JETTCLINICA");
